@@ -1,0 +1,91 @@
+/*===============================*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/*===============================*/
+body {
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(135deg, #b91c1c, #FF0000);
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  overflow: hidden;
+}
+/*===============================*/
+.wrapper {
+  width: 100%;
+  max-width: 480px;
+}
+/*===============================*/
+.card {
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+  padding: 2rem 2rem;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  transition: all 0.3s ease;
+  outline: 1px;
+}
+/*===============================*/
+.card:hover {
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.6);
+  transform: translateY(-1px);
+}
+/*===============================*/
+.card-header {
+  margin-bottom: 2rem;
+}
+/*===============================*/
+.logo-img {
+  width: 100px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+/*===============================*/
+.card-header h1 {
+  font-size: 2.6rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 0.4rem;
+}
+/*===============================*/
+.subtitle {
+  font-size: 1.1rem;
+  color: #fca5a5; 
+}
+/*===============================*/
+a {
+  text-decoration: none;
+  display: block;
+  width: 100%;
+}
+/*===============================*/
+button {
+  background: #fff;
+  color: #black;
+  border: none;
+  border-radius: 14px;
+  padding: 1rem 1.2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  width: 100%;
+  transition: all 0.3s ease;
+}
+/*===============================*/
+.footer {
+  margin-top: 2rem;
+  font-size: 0.95rem;
+  color: #fca5a5;
+  text-align: center;
+}
+/*===============================*/
